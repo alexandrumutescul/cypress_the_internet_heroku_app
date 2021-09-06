@@ -1,15 +1,17 @@
+/// <reference types="cypress" />
+
 //Arrange
 //User credentials
 let username = 'tomsmith'
 let password = 'SuperSecretPassword!'
 
-before(() => {
-    cy.visit('https://the-internet.herokuapp.com/')
-    cy.contains('Form Authentication').click()
-  })
-
 //Act
-describe('Form Authentication Test', function () {
+describe('Form Authentication Tests', function () {
+    before(() => {
+        cy.visit('https://the-internet.herokuapp.com/')
+        cy.contains('Form Authentication').click()
+      })
+    
     it('Checks Login Page', function () {
         cy.url().should('include', '/login')
         cy.get('#content > div > h2').should('have.text', 'Login Page')
