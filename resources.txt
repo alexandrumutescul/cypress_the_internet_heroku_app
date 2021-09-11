@@ -1,2 +1,7 @@
 https://app.pluralsight.com/course-player?clipId=6c015c89-383d-4055-8499-d9aa4d42b94f End-to-end Vue Testing with Cypress By Marko Vajs
 https://github.com/RolandGuijt/ps-microservices-getting-started Globoticket Web Application
+
+https://github.com/cypress-io/cypress/issues/6389
+
+https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/
+https://github.com/marak/Faker.js/ test data generator

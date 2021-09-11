@@ -1,1 +1,9 @@
-{}
+{
+    "baseUrl": "https://the-internet.herokuapp.com/",
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "tests/TEST-output-[hash].xml",
+        "toConsole": true
+    },
+    "video": false
+}

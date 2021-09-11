@@ -1,3 +1,13 @@
 yield vs return
 promises
 anonymous function
+closures
+jQuery
+non-deterministic behavior + conditional testing = flaky test
+Check other sources of truth(server, database, etc)
+Embed data into other places you could read off
+Add data to the DOM that you can read off to know how to proceed
+https://insights.sei.cmu.edu/blog/the-challenges-of-testing-in-a-non-deterministic-world/
+https://www.w3schools.com/jquery/html_text.asp
+https://docs.cypress.io/guides/core-concepts/variables-and-aliases#Closures
+https://www.velotio.com/engineering-blog/full-stack-qa-testing-using-cypress
